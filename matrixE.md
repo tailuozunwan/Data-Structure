@@ -3,9 +3,11 @@
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
+	
 int A[2][3]={{1,2,3},{4,5,6}};
 int B[3][3]={{1,0,1},{1,1,0},{0,1,0}};
 int C[2][3];
+	
 class fun{
 	public:
 	  void matrix_one(int m,int n);
